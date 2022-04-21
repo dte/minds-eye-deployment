@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir .streamlit
+
 pip install streamlit==1.7.0
 pip install wget
 pip install fvcore iopath lpips datetime timm ftfy
