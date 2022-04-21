@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir .streamlit
+mkdir /.streamlit
 
 pip install streamlit==1.7.0
 pip install wget
@@ -26,6 +26,8 @@ git clone "https://github.com/crowsonkb/guided-diffusion.git"
 git clone "https://github.com/assafshocher/ResizeRight.git"
 git clone "https://github.com/isl-org/MiDaS.git"
 git clone "https://github.com/multimodalart/mindseye.git"
+
+cp mindseye/app.py /app.py
 
 python main.py
 
