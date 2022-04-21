@@ -12,6 +12,8 @@ version_str="".join([
     f"_pyt{pyt_version_str}"
 ])
 
+root_path = f'.'
+
 sys.path.append('./pytorch3d-lite')
 import pathlib, shutil
 from os.path import exists as path_exists
