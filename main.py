@@ -22,7 +22,6 @@ if not path_exists(f'{root_path}/MiDaS/midas_utils.py'):
 
 if not path_exists(f'{root_path}/glid-3-xl/jack_guided_diffusion'):
   os.rename('glid-3-xl/guided_diffusion', 'glid-3-xl/jack_guided_diffusion')
-!mkdir .streamlit
 shutil.copyfile("mindseye/.streamlit/config.toml", ".streamlit/config.toml")
 shutil.copyfile("mindseye/app.py", "app.py")
 shutil.copyfile("mindseye/disco_streamlit_run.py", "disco_streamlit_run.py")
