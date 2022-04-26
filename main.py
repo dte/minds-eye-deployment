@@ -34,6 +34,7 @@ if not path_exists(f'{root_path}/disco_xform_utils.py'):
   shutil.copyfile("disco-diffusion/disco_xform_utils.py", "disco_xform_utils.py")
 
 #sys.path.append('./mindseye')
+sys.path.append('./pytorch3d-lite')
 sys.path.append('./guided-diffusion')
 sys.path.append('./latent-diffusion')
 sys.path.append(".")
