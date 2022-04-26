@@ -33,6 +33,8 @@ git clone "https://github.com/multimodalart/mindseye.git"
 
 cp mindseye/app.py /app.py
 
+export PATH="$PATH:/."
+
 python main.py
 
   
